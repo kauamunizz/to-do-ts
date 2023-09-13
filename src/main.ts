@@ -1,8 +1,11 @@
 import './style.css'
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML =  `
+document.querySelector<HTMLDivElement>('#app')!.innerHTML = /*html*/ `
   <div class="container">
-    <h1>To Do List</h1>
+    <div class="title-add">
+      <input type="text" placeholder="Qual sua proxima tarefa?"/>
+      <button class="btn">add</button>
+    </div>
     <p>Você ainda nao possui tarefas 🍕</p>
   
   </div>
